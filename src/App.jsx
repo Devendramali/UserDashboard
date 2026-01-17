@@ -6,7 +6,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
 import Sidebar from './component/Sidebar'
 import Header from './component/Header'
-import Auth from './Routes/Auth'
+import Auth from './routes/Auth'
 
 function App() {
   const [search, setSearch] = useState("")
